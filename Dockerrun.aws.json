@@ -4,7 +4,7 @@
         {
             "name": "client",
             "image": "aminbavand/multi-client",
-            "hostname": "client",//host name inside default.conf
+            "hostname": "client",
             "essential": false,
             "memory": 128
         },
@@ -25,7 +25,7 @@
         {
             "name": "nginx",
             "image": "aminbavand/multi-nginx",
-            "hostname": "nginx",//this line is optional
+            "hostname": "nginx",
             "essential": true,
             "portMappings": [
                 {
